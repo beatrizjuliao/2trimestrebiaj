@@ -6,55 +6,55 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Atualmente, quantos elementos químicos a tabela periódica possui?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "108",
                 afirmacao: "afirmacao"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "118",
                 afirmacao: "afirmacao"
             }           
             
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
+        enunciado: "Quais os principais autores do Barroco no Brasil?",
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
+                texto:"Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira",
                 afirmacao:"afirmacao"
             },
             {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Miguel de Cervantes, Gregório de Matos e Danthe Alighieri",
                 afirmacao:"afirmacao"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Verdadeiro ou falso: O Dia das Bruxas teve origem como um antigo festival irlandês. Verdadeiro",
         alternativas: [
             {
-                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto:"Verdadeiro ",
                 afirmacao:"afirmacao"
             },
             {
-                texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto:"falso",
                 afirmacao:"afirmacao"
             }
             
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?",
         alternativas: [
             {
-                texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto:" Tem entre 2 a 4 litros. São retirados 450 mililitros",
                 afirmacao:"afirmacao"
             },
             {
-                texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto:"Tem entre 4 a 6 litros. São retirados 450 mililitros",
                 afirmacao:"afirmacao"
             }
             

@@ -10,38 +10,38 @@ const perguntas = [
         alternativas: [
             {
                 texto: "108",
-                afirmacao: "afirmacao"
+                afirmacao: "118,"
             },
             {
                 texto: "118",
-                afirmacao: "afirmacao"
+                afirmacao: "118,"
             }           
             
         ]
     },
     {
-        enunciado: "Quais os principais autores do Barroco no Brasil?",
+        enunciado: " Um anel tem 3 pedras preciosas. Quantas pedras preciosas têm 11 anéis?",
         alternativas: [
             {
-                texto:"Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira",
-                afirmacao:"afirmacao"
+                texto:"33",
+                afirmacao:"33,"
             },
             {
-                texto: "Miguel de Cervantes, Gregório de Matos e Danthe Alighieri",
-                afirmacao:"afirmacao"
+                texto: "30",
+                afirmacao:"33,"
             }
         ]
     },
     {
-        enunciado: "Verdadeiro ou falso: O Dia das Bruxas teve origem como um antigo festival irlandês. Verdadeiro",
+        enunciado: " Qual o nome popular do cloreto de sódio?",
         alternativas: [
             {
-                texto:"Verdadeiro ",
-                afirmacao:"afirmacao"
+                texto:" Sal de cozinha",
+                afirmacao:" Sal de cozinha,"
             },
             {
-                texto:"falso",
-                afirmacao:"afirmacao"
+                texto:"Fermento",
+                afirmacao:" Sal de cozinha,"
             }
             
         ]
@@ -51,25 +51,25 @@ const perguntas = [
         alternativas: [
             {
                 texto:" Tem entre 2 a 4 litros. São retirados 450 mililitros",
-                afirmacao:"afirmacao"
+                afirmacao:"Tem entre 4 a 6 litros e São retirados 450 mililitros,"
             },
             {
                 texto:"Tem entre 4 a 6 litros. São retirados 450 mililitros",
-                afirmacao:"afirmacao"
+                afirmacao:"Tem entre 4 a 6 litros e São retirados 450 mililitros,"
             }
             
         ]
     },
     {
-        enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: " O que a palavra legend significa em português?",
         alternativas: [
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao:"afirmacao"
+                texto: "Legenda",
+                afirmacao:"Lenda."
             },
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
+                texto: "Lenda",
+                afirmacao:"Lenda."
             }
             
             
@@ -109,7 +109,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Gabarito";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
 }
